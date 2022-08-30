@@ -32,6 +32,7 @@
     <ProjectGuid>{f85385e9-fb61-4f03-8d0c-70ab572c1b42}</ProjectGuid>
     <RootNamespace>ConsoleRPG</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ConsoleApp_RPGgame</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
