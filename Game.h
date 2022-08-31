@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <iomanip>
-#include <ctime>+
+#include <ctime>
 
 using namespace std;
 
