@@ -11,6 +11,7 @@ public:
 	// Operators
 
 	// Functions
+	void Initialize(std::string name, int level);
 
 	// Accessors
 	inline const double& GetXPos() const { return this->xPos; };
