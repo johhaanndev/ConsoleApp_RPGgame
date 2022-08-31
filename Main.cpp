@@ -8,6 +8,7 @@ int main()
 	srand(time(NULL));
 
 	Game game;
+	game.InitGame();
 
 	while (game.GetPlaying())
 	{

@@ -3,8 +3,6 @@
 #include "Functions.h"
 #include "Character.h"
 
-#include <iostream>
-#include <iomanip>
 #include <ctime>
 
 class Game
@@ -16,6 +14,7 @@ public:
 	// Operators
 
 	// Functions
+	void InitGame();
 	void MainMenu();
 
 	// Accessors
@@ -27,5 +26,8 @@ private:
 	// Variables
 	int choice;
 	bool playing;
+	
+	// Character reference
+	Character character;
 };
 
