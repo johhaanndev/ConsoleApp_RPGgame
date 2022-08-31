@@ -18,7 +18,11 @@ void Game::MainMenu()
 	cout << "2: Shop" << endl;
 	cout << "3: Level up" << endl;
 	cout << "4: Rest" << endl;
-	cout << "" << endl;
+	cout << endl;
+
+	cout << "Choice: ";
+	cin >> choice;
+	cout << endl;
 
 	switch (choice)
 	{
