@@ -7,8 +7,6 @@
 #include <iomanip>
 #include <ctime>
 
-using namespace std;
-
 class Game
 {
 public:

@@ -2,7 +2,16 @@
 
 Character::Character()
 {
-	
+	this->name = "";
+	this->level = 0;
+	this->exp = 0;
+	this->expNext = 0;
+	this->hp = 0;
+	this->hpMax = 0;
+	this->stamina = 0;
+	this->damageMin = 0;
+	this->damageMax = 0;
+	this->defense = 0;
 }
 
 Character::~Character()
